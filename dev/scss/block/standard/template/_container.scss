@@ -1,0 +1,20 @@
+.container {
+	width: 100%;
+	margin: 0 auto 0 auto;
+	padding: 0 $gutter;
+
+	background: orange;
+}
+
+// @media screen and (max-width: 1400px) {
+// 	.container {
+// 		width: 95%;
+// 		padding: 0 2rem;
+// 	}
+// }
+
+@media screen and (max-width: 3500px) {
+	.container {
+		max-width: 1200px;
+	}	
+}
